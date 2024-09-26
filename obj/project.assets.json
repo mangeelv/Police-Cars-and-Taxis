@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Practice1.csproj",
+      "projectUniqueName": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Practice1.csproj",
       "projectName": "Practice1",
-      "projectPath": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Practice1.csproj",
+      "projectPath": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Practice1.csproj",
       "packagesPath": "C:\\Users\\mange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\obj\\",
+      "outputPath": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mange\\AppData\\Roaming\\NuGet\\NuGet.Config",
