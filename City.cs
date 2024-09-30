@@ -12,6 +12,11 @@ public class City
 		licensedTaxis.Add(taxi);
 	}
 
+	private void RemoveLicense(Taxi taxi)
+	{
+		licensedTaxis.Remove(taxi);
+	}
+
 	public City(PoliceStation policeStation)
     {
         this.policeStation = policeStation;

@@ -5,7 +5,8 @@
         //Radar doesn't know about Vechicles, just speed and plates
         private string plate;
         private float speed;
-        private float legalSpeed = 50.0f;
+        public float legalSpeed = 50.0f;
+
         public List<float> SpeedHistory { get; private set; }
 
         public SpeedRadar()

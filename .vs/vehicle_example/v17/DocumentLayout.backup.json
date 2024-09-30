@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\",
+  "WorkspaceRootPath": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policestation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:policecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:taxi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:speedradar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:imessagewritter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\p1-vehicle_example\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|c:\\users\\mange\\source\\repos\\police-cars-and-taxis\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF901D8A-3988-4752-95C0-1E096290AB1F}|Practice1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,56 +38,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PoliceStation.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\PoliceStation.cs",
+              "RelativeDocumentMoniker": "PoliceStation.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\PoliceStation.cs",
+              "RelativeToolTip": "PoliceStation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T17:32:37.008Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Taxi.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Taxi.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Taxi.cs",
               "RelativeDocumentMoniker": "Taxi.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Taxi.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Taxi.cs",
               "RelativeToolTip": "Taxi.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:18:10.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IMessageWritter.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\IMessageWritter.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\IMessageWritter.cs",
               "RelativeDocumentMoniker": "IMessageWritter.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\IMessageWritter.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\IMessageWritter.cs",
               "RelativeToolTip": "IMessageWritter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:23:25.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T16:23:25.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpeedRadar.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\SpeedRadar.cs",
+              "RelativeDocumentMoniker": "SpeedRadar.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\SpeedRadar.cs",
+              "RelativeToolTip": "SpeedRadar.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:22:24.918Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SpeedRadar.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeDocumentMoniker": "SpeedRadar.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\SpeedRadar.cs",
-              "RelativeToolTip": "SpeedRadar.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:22:24.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PoliceCar.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\PoliceCar.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\PoliceCar.cs",
               "RelativeDocumentMoniker": "PoliceCar.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\PoliceCar.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\PoliceCar.cs",
               "RelativeToolTip": "PoliceCar.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:18:21.698Z",
               "EditorCaption": ""
@@ -92,27 +107,26 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Vehicle.cs",
               "RelativeDocumentMoniker": "Vehicle.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Vehicle.cs",
               "RelativeToolTip": "Vehicle.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAkwCsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T16:17:23.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\Users\\mange\\source\\repos\\P1-vehicle_example\\Main.cs",
+              "ToolTip": "C:\\Users\\mange\\source\\repos\\Police-Cars-and-Taxis\\Main.cs",
               "RelativeToolTip": "Main.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T08:22:46.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:22:46.009Z"
             }
           ]
         }

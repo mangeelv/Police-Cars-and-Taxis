@@ -4,7 +4,7 @@ using System;
 public class PoliceStation
 {
 	private List<PoliceCar> policeList;
-	private List<Taxi> infractorsList;
+	public List<Vehicle> infractorsList = new List<Vehicle>();
 	public bool alarm; 
 
 
@@ -12,6 +12,12 @@ public class PoliceStation
 	{
 		policeList.Add(policeCar);
 	}
+
+	private void NotifyPoliceCar(PoliceCar policeCar)
+	{
+		PoliceCar.speedingCar = infractorsList.Last();
+
+    }
 
 
 
