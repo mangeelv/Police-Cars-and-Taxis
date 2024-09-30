@@ -3,7 +3,7 @@ using System;
 
 public class PoliceStation
 {
-	private List<PoliceCar> policeList;
+	private List<PoliceCar> policeList = new List<PoliceCar>();
 	public List<Vehicle> infractorsList = new List<Vehicle>();
 	public bool alarm; 
 
@@ -13,12 +13,14 @@ public class PoliceStation
 		policeList.Add(policeCar);
 	}
 
-	private void NotifyPoliceCar(PoliceCar policeCar)
+	public void NotifyPoliceCars()
 	{
+		
 		PoliceCar.speedingCar = infractorsList.Last();
-
+		
+		}
     }
 
 
 
-}
+

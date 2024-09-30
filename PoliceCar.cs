@@ -1,18 +1,20 @@
 ﻿namespace Practice1
 {
-    class PoliceCar : Vehicle
+    public class PoliceCar : Vehicle
     {
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
-        private const string typeOfVehicle = "Police Car"; 
+        private const string typeOfVehicle = "Police Car";
         private bool isPatrolling;
         private SpeedRadar speedRadar;
-        public  static Taxi speedingCar;
+        public static Vehicle? speedingCar;
         private PoliceStation policeStation;
+        private bool chasing = false;
 
-        public PoliceCar(string plate) : base(typeOfVehicle, plate)
+        public PoliceCar(string plate, PoliceStation station) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
+            policeStation = station;
         }
 
 
@@ -29,7 +31,10 @@
                 if (float.Parse(meassurement) > speedRadar.legalSpeed)
                 {
                     ActivateAlarm();
-                    policeStation.infractorsList.Add(vehicle);
+                    policeStation.infractorsList.Add(vehicle); // Proporcionamos a la comisaría el infractor 
+                    policeStation.NotifyPoliceCars(); 
+                    chasing = true;
+                    
                 }
 
                 Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
