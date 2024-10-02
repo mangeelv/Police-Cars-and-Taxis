@@ -3,7 +3,7 @@ using System;
 
 public class City: IMessageWritter
 {
-	private PoliceStation policeStation;
+	private PoliceStation? policeStation;
 	private List<Taxi> licensedTaxis = new List<Taxi>() ;
 
 
