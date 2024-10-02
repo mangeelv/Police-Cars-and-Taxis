@@ -5,7 +5,7 @@
         //constant string as TypeOfVehicle wont change allong PoliceCar instances
         private const string typeOfVehicle = "Police Car";
         private bool isPatrolling;
-        private SpeedRadar speedRadar;
+        public SpeedRadar? speedRadar;
         public  string? speedingCarPlate; // no es estática ya que tenerla implica que el coche está patrullando
         private PoliceStation policeStation;
         private bool chasing = false;
@@ -15,13 +15,26 @@
         public PoliceCar(string plate, PoliceStation station) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
-            speedRadar = new SpeedRadar();
+            // speedRadar = new SpeedRadar();
             policeStation = station;
+        }
+
+        public void SetSpeedRadar(SpeedRadar radar)
+        {
+            speedRadar = radar;
+            Console.WriteLine(WriteMessage("Was given a working radar"));
         }
 
         public void SetChasing(bool chasingValue)
         {
-            chasing = chasingValue;
+            if (isPatrolling == true)
+            {
+                if (chasing != chasingValue)
+                {
+                    chasing = chasingValue;
+                    Console.WriteLine(WriteMessage($"Chasing {chasing}"));
+                }
+            }
         }
 
         public void SetSpeedingCar(string plate)
@@ -30,31 +43,36 @@
         }
 
 
-        private void ActivateAlarm()
-        {
-            policeStation.alarm = true;
-        }
+     
         public void UseRadar(Vehicle vehicle)
         {
             if (isPatrolling)
             {
-                speedRadar.TriggerRadar(vehicle);
-                string meassurement = speedRadar.GetLastReading();
-                if (float.Parse(meassurement) > speedRadar.legalSpeed)
-                {
-                    ActivateAlarm();
-                    policeStation.infractorsList.Add(vehicle); // Proporcionamos a la comisaría el infractor 
-                    policeStation.NotifyPoliceCars();  // notificamos desde la comisarría al resto de coches de policía 
-                    SetChasing(true); // como se ha detectado un vehículo por encima del límite empezamos el chasing
-                    chasing = true;
+                if (speedRadar != null) { 
+
+                    speedRadar.TriggerRadar(vehicle);
+                    string meassurement = speedRadar.GetLastReading();
+                    if (speedRadar.SpeedHistory.Last() > speedRadar.legalSpeed)
+                    {
+                        Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                        policeStation.ActivateAlarm();
+                        policeStation.infractorsList.Add(vehicle); // Proporcionamos a la comisaría el infractor 
+                        policeStation.NotifyPoliceCars();  // notificamos desde la comisarría al resto de coches de policía 
+                        SetChasing(true); // como se ha detectado un vehículo por encima del límite empezamos el chasing
+                        chasing = true;
+                    
+                    }
+
                     
                 }
-
-                Console.WriteLine(WriteMessage($"Triggered radar. Result: {meassurement}"));
+                else
+                {
+                    Console.WriteLine(WriteMessage($"has no active radar."));
+                }
             }
             else
             {
-                Console.WriteLine(WriteMessage($"has no active radar."));
+                Console.WriteLine(WriteMessage("Police Car has no radar"));
             }
         }
 
@@ -91,10 +109,18 @@
 
         public void PrintRadarHistory()
         {
-            Console.WriteLine(WriteMessage("Report radar speed history:"));
-            foreach (float speed in speedRadar.SpeedHistory)
+            if (speedRadar != null)
             {
-                Console.WriteLine(speed);
+                Console.WriteLine(WriteMessage("Report radar speed history:"));
+                foreach (float speed in speedRadar.SpeedHistory)
+                {
+                    Console.WriteLine(speed);
+                }
+            }
+
+            else
+            {
+                Console.WriteLine(WriteMessage("Police Car has no radar"));
             }
         }
     }

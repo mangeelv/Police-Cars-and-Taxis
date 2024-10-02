@@ -25,7 +25,7 @@
             return typeOfVehicle;
         }
 
-        public string GetPlate()
+        public virtual string GetPlate()
         {
             return plate;
         }
