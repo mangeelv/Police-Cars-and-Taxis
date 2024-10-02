@@ -16,7 +16,14 @@ public class PoliceStation
 	public void NotifyPoliceCars()
 	{
 		
-		PoliceCar.speedingCar = infractorsList.Last();
+		foreach (PoliceCar policeCar in policeList)
+		{
+			if (policeCar.IsPatrolling()) // si está patrullando 
+			{
+				policeCar.SetSpeedingCar(infractorsList.Last().GetPlate()); // le notificamos el coche infractor 
+				policeCar.SetChasing(true); // hemos notificado al coche de policia de que hay un vehículo por encima del límite
+			}
+		}
 		
 		}
     }

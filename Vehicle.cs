@@ -19,6 +19,7 @@
             return $"{GetTypeOfVehicle()} with plate {GetPlate()}";
         }
 
+      
         public string GetTypeOfVehicle()
         {
             return typeOfVehicle;

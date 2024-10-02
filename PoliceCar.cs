@@ -6,15 +6,27 @@
         private const string typeOfVehicle = "Police Car";
         private bool isPatrolling;
         private SpeedRadar speedRadar;
-        public static Vehicle? speedingCar;
+        public  string? speedingCarPlate; // no es estática ya que tenerla implica que el coche está patrullando
         private PoliceStation policeStation;
         private bool chasing = false;
+
+
 
         public PoliceCar(string plate, PoliceStation station) : base(typeOfVehicle, plate)
         {
             isPatrolling = false;
             speedRadar = new SpeedRadar();
             policeStation = station;
+        }
+
+        public void SetChasing(bool chasingValue)
+        {
+            chasing = chasingValue;
+        }
+
+        public void SetSpeedingCar(string plate)
+        {
+            speedingCarPlate = plate;
         }
 
 
@@ -32,7 +44,8 @@
                 {
                     ActivateAlarm();
                     policeStation.infractorsList.Add(vehicle); // Proporcionamos a la comisaría el infractor 
-                    policeStation.NotifyPoliceCars(); 
+                    policeStation.NotifyPoliceCars();  // notificamos desde la comisarría al resto de coches de policía 
+                    SetChasing(true); // como se ha detectado un vehículo por encima del límite empezamos el chasing
                     chasing = true;
                     
                 }
